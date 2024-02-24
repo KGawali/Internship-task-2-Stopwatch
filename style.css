@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-top:200px;
+  background-color: #05161f
+  }
+  
+  #stopwatch {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: azure;
+  }
+  
+#heading {
+    font-size: 50px;
+    color: rgb(116, 186, 243); /* Dark gray */
+    margin-bottom: 20px;
+    font-family: "sans-serif", Helvetica, Arial; 
+  }
+  
+ 
+
+  button {
+    margin: 5px;
+    padding: 25px 60px; /* Increased padding */
+    font-size: 25px; /* Increased font size */
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  #startStop{
+    background-color: #f44336;
+    border: none;
+    color: white;
+  }
+  #startStop:hover {
+    background-color: #cc0000; /* Darker red */
+  }
+  #reset{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  }
+  #reset:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  #laps {
+    margin-top: 20px;
+    text-align: left;
+   color:white;
+
+  }
+  #lap{
+    background-color: #2196F3; /* Blue */
+    border: none;
+    color: white;
+  }
+  #lap:hover {
+    background-color: #0b7dda; /* Darker blue */
+  }
+  
